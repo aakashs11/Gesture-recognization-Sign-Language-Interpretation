@@ -18,13 +18,13 @@ Collection of 7 custom gestures, which can be further extended to add Indian Sig
 
 ## File Description
 
-[Add_Gesture.py]  Run this file to add gestures. It can be used to add vocabulary in any sign language. Go into the file and change the name of the directory and make other appropriate changes.
+[Add_Gesture.py] https://github.com/aakashsingh11/Sign-Language-Interpretation/blob/master/Add_Gesture.py Run this file to add gestures. It can be used to add vocabulary in any sign language. Go into the file and change the name of the directory and make other appropriate changes.
 
-[ResizeImages.py] Run this file after Add_Gesture.py in order to resize the images so that it can be fed into the Convolution Neural Network designed using tensorflow. The network accepts 89 x 100 dimensional image.
+[ResizeImages.py] https://github.com/aakashsingh11/Sign-Language-Interpretation/blob/master/ResizeImages.py Run this file after Add_Gesture.py in order to resize the images so that it can be fed into the Convolution Neural Network designed using tensorflow. The network accepts 89 x 100 dimensional image.
 
-[Trainer.py]  Run this file  to retrain the model using your custom dataset.
+[Train.py] https://github.com/aakashsingh11/Sign-Language-Interpretation/blob/master/Train.py  Run this file  to retrain the model using your custom dataset.
 
-[Predictor.py] Running this file opens up your webcam and takes continuous frames of your hand image and then predicts the class of your hand gesture in realtime.
+[Predictor.py] https://github.com/aakashsingh11/Sign-Language-Interpretation/blob/master/Predictor.py Running this file opens up your webcam and takes continuous frames of your hand image and then predicts the class of your hand gesture in realtime.
 
 ## Architecture
 
@@ -49,7 +49,7 @@ The ratio of training set to validation set is **1000 : 100**.
 
 ## How to run the RealTime prediction
 
-Run the [Predictor.py] and you will see a window named **Video Feed** appear on screen. Wait for a while until a window named **Thresholded** appears.
+Run the [Predictor.py] https://github.com/aakashsingh11/Sign-Language-Interpretation/blob/master/Predictor.py and you will see a window named **Video Feed** appear on screen. Wait for a while until a window named **Thresholded** appears.
 
 The next step involves pressing **"s"** on your keyboard in order to start the real-time prediction.
 
