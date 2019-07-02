@@ -30,7 +30,7 @@ Collection of 7 custom gestures, which can be further extended to add Indian Sig
 
 ### Background Ellimination 
 
-After taking the average of 30 frames you can introduce your hand into the frame and save the histogram. This will effectively subratract the background and show only the black and white pixels.
+After taking the average of 30 frames you can introduce your hand into the frame and save the histogram. This will effectively subtract the background and show only the black and white pixels.
 
 Refer: [Gogul09](https://github.com/Gogul09) 
 
