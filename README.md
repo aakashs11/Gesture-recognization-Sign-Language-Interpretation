@@ -43,7 +43,7 @@ The network is trained across **50** iterations with a batch size of **64**.
 
 I kind of saw that 50 iterations kind of trains the model well and there is no increase in validation accuracy along the lines so that should be enough.
 
-The model achieves an accuracy of **96.6%** on the validation dataset.
+The model achieves an accuracy of **99.2%** on the validation dataset.
 
 The ratio of training set to validation set is **1000 : 100**.
 
