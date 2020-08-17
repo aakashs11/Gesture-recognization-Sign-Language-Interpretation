@@ -60,7 +60,7 @@ Look in demo for some visual clarity.
 
 Well now it's time for some demo.
 
-
+![](https://github.com/aakashs11/SLI/blob/master/Gesture%20Predictor.gif)
 
 ## Requirements
 
