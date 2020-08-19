@@ -70,7 +70,7 @@ There was an increase of about 5% in validation accuracy. Some overfitting is ob
 | weighted avg | 0.93      | 0.93   | 0.93     | 17400   |
 |              |           |        |          |         |
 
-
+![](https://github.com/aakashs11/SLI/blob/master/Images/VGG19/cnf.png)
 
 
 
