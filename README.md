@@ -8,9 +8,21 @@
 https://www.kaggle.com/grassknoted/asl-alphabet
 The data set is a collection of images of alphabets from the American Sign Language, separated in 29 folders which represent the various classes.
 
+
+
+## VGG 16 
+This model achieves 92.7% top-5 test accuracy on ImageNet dataset which contains 14 million images belonging to 1000 classes.
+###Trained on 30000 samples, validated on 17400 samples
+<br />
 ## VGG 19
 Used just as a good classification architecture for many other datasets and as the authors made the models available to the public they can be used as is or with modification for other similar tasks also.
 Transfer learning : can be used for facial recognition tasks also.
+###Trained on 30000 samples, validated on 17400 samples
+Model was trained for 10 epochs after which I unfroze the last 2 convolutional layers(to "fine-tune" the higher-order feature representations in the base model in order to make them more relevant for the specific task)
+As you are training a much larger model and want to readapt the pretrained weights, it is important to use a lower learning rate at this stage. Otherwise, your model could overfit very quickly.. There was an increase of about 5% in validation accuracy. Some overfitting is observed since val loss is a bit higher than training loss.  
+
+
+### 
 
 
 
