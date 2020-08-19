@@ -1,9 +1,8 @@
 # This project has 2 parts
-## 1. Transfer learning to create models for geture detection
-## 2. Gesture Recognition using OpenCV and Deep CNN
 
 
-# 1. Transfer learning to create models for geture detection
+
+# Part-1. Transfer learning to create models for geture detection
 ## VGG 19
 
 
