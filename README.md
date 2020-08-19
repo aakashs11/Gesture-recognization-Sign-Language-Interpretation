@@ -8,11 +8,19 @@
 https://www.kaggle.com/grassknoted/asl-alphabet
 The data set is a collection of images of alphabets from the American Sign Language, separated in 29 folders which represent the various classes.
 
+![](https://github.com/aakashs11/SLI/blob/master/label%20count.png)
 
+![](https://github.com/aakashs11/SLI/blob/master/Images/VGG16/accuracy.png)
+
+![](https://github.com/aakashs11/SLI/blob/master/Images/VGG16/loss.png)
+
+![](https://github.com/aakashs11/SLI/blob/master/Images/VGG16/cnfmatrix.png)
 
 ## VGG 16 
 This model achieves 92.7% top-5 test accuracy on ImageNet dataset which contains 14 million images belonging to 1000 classes.
 ###Trained on 30000 samples, validated on 17400 samples
+![](https://github.com/aakashs11/SLI/blob/master/Images/VGG16/cnfmatrix.png)
+
 <br />
 ## VGG 19
 Used just as a good classification architecture for many other datasets and as the authors made the models available to the public they can be used as is or with modification for other similar tasks also.
@@ -23,7 +31,41 @@ As you are training a much larger model and want to readapt the pretrained weigh
 Otherwise, your model could overfit very quickly.\
 There was an increase of about 5% in validation accuracy. Some overfitting is observed since val loss is a bit higher than training loss.  
 
-
+|              | precision | recall | f1-score | support |
+|--------------|-----------|--------|----------|---------|
+| A            | 0.90      | 0.94   | 0.92     | 615     |
+| B            | 0.90      | 0.95   | 0.92     | 590     |
+| C            | 0.99      | 0.99   | 0.99     | 581     |
+| D            | 0.97      | 0.99   | 0.98     | 560     |
+| E            | 0.91      | 0.88   | 0.89     | 572     |
+| F            | 0.95      | 0.97   | 0.96     | 602     |
+| G            | 0.97      | 0.94   | 0.96     | 622     |
+| H            | 0.96      | 0.97   | 0.97     | 614     |
+| I            | 0.93      | 0.92   | 0.92     | 598     |
+| J            | 0.97      | 0.95   | 0.96     | 616     |
+| K            | 0.90      | 0.92   | 0.91     | 610     |
+| L            | 0.96      | 0.99   | 0.98     | 623     |
+| M            | 0.86      | 0.91   | 0.88     | 538     |
+| N            | 0.93      | 0.91   | 0.92     | 604     |
+| O            | 0.97      | 0.95   | 0.96     | 607     |
+| P            | 0.95      | 0.98   | 0.96     | 630     |
+| Q            | 0.99      | 0.96   | 0.97     | 626     |
+| R            | 0.87      | 0.82   | 0.85     | 593     |
+| S            | 0.83      | 0.88   | 0.85     | 600     |
+| T            | 0.96      | 0.91   | 0.93     | 586     |
+| U            | 0.82      | 0.84   | 0.83     | 581     |
+| V            | 0.85      | 0.87   | 0.86     | 594     |
+| W            | 0.90      | 0.90   | 0.90     | 562     |
+| X            | 0.93      | 0.81   | 0.86     | 651     |
+| Y            | 0.89      | 0.96   | 0.92     | 576     |
+| Z            | 0.98      | 0.96   | 0.97     | 634     |
+| del          | 0.96      | 0.96   | 0.96     | 604     |
+| nothing      | 1.00      | 1.00   | 1.00     | 606     |
+| space        | 0.97      | 0.95   | 0.96     | 605     |
+| accuracy     |           |        | 0.93     | 17400   |
+| macro avg    | 0.93      | 0.93   | 0.93     | 17400   |
+| weighted avg | 0.93      | 0.93   | 0.93     | 17400   |
+|              |           |        |          |         |
 ### 
 
 
