@@ -19,9 +19,9 @@ Used just as a good classification architecture for many other datasets and as t
 Transfer learning : can be used for facial recognition tasks also.
 ###Trained on 30000 samples, validated on 17400 samples
 Model was trained for 10 epochs after which I unfroze the last 2 convolutional layers(to "fine-tune" the higher-order feature representations in the base model in order to make them more relevant for the specific task)
-\As you are training a much larger model and want to readapt the pretrained weights, it is important to use a lower learning rate at this stage. 
+\n As you are training a much larger model and want to readapt the pretrained weights, it is important to use a lower learning rate at this stage. 
 Otherwise, your model could overfit very quickly.
-\There was an increase of about 5% in validation accuracy. Some overfitting is observed since val loss is a bit higher than training loss.  
+\n There was an increase of about 5% in validation accuracy. Some overfitting is observed since val loss is a bit higher than training loss.  
 
 
 ### 
