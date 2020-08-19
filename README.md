@@ -8,6 +8,10 @@
 https://www.kaggle.com/grassknoted/asl-alphabet
 The data set is a collection of images of alphabets from the American Sign Language, separated in 29 folders which represent the various classes.
 
+
+## VGG 16 
+This model achieved an accuracy of *91.1%*
+###Trained on 30000 samples, validated on 17400 samples
 ![](https://github.com/aakashs11/SLI/blob/master/label%20count.png)
 
 ![](https://github.com/aakashs11/SLI/blob/master/Images/VGG16/accuracy.png)
@@ -16,10 +20,7 @@ The data set is a collection of images of alphabets from the American Sign Langu
 
 ![](https://github.com/aakashs11/SLI/blob/master/Images/VGG16/cnfmatrix.png)
 
-## VGG 16 
-This model achieves 92.7% top-5 test accuracy on ImageNet dataset which contains 14 million images belonging to 1000 classes.
-###Trained on 30000 samples, validated on 17400 samples
-![](https://github.com/aakashs11/SLI/blob/master/Images/VGG16/cnfmatrix.png)
+
 
 <br />
 ## VGG 19
@@ -30,6 +31,8 @@ Model was trained for 10 epochs after which I unfroze the last 2 convolutional l
 As you are training a much larger model and want to readapt the pretrained weights, it is important to use a lower learning rate at this stage.
 Otherwise, your model could overfit very quickly.\
 There was an increase of about 5% in validation accuracy. Some overfitting is observed since val loss is a bit higher than training loss.  
+
+Final accuracy of *93%*
 
 |              | precision | recall | f1-score | support |
 |--------------|-----------|--------|----------|---------|
@@ -66,7 +69,7 @@ There was an increase of about 5% in validation accuracy. Some overfitting is ob
 | macro avg    | 0.93      | 0.93   | 0.93     | 17400   |
 | weighted avg | 0.93      | 0.93   | 0.93     | 17400   |
 |              |           |        |          |         |
-### 
+
 
 
 
