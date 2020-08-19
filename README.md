@@ -2,7 +2,7 @@
 
 
 
-# Part-1. Transfer learning to create models for geture detection
+# Part-1. Transfer learning to create models for gesture detection
 ## Dataset can be found on
 
 https://www.kaggle.com/grassknoted/asl-alphabet
