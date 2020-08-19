@@ -17,7 +17,7 @@ This model achieves 92.7% top-5 test accuracy on ImageNet dataset which contains
 ## VGG 19
 Used just as a good classification architecture for many other datasets and as the authors made the models available to the public they can be used as is or with modification for other similar tasks also.
 Transfer learning : can be used for facial recognition tasks also.
-###Trained on 30000 samples, validated on 17400 samples
+### Trained on 30000 samples, validated on 17400 samples
 Model was trained for 10 epochs after which I unfroze the last 2 convolutional layers(to "fine-tune" the higher-order feature representations in the base model in order to make them more relevant for the specific task)\
 As you are training a much larger model and want to readapt the pretrained weights, it is important to use a lower learning rate at this stage.
 Otherwise, your model could overfit very quickly.\
