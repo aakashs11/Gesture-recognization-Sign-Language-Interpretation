@@ -1,14 +1,20 @@
-# Gesture Recognition using OpenCV and Deep CNN
+# This project has 2 parts
+## 1. Transfer learning to create models for geture detection
+## 2. Gesture Recognition using OpenCV and Deep CNN
+
+
+# 1. Transfer learning to create models for geture detection
+## VGG 19
+
+
+
+
+# 2. Gesture Recognition using OpenCV and Deep CNN
 
 ## About the Project
 
 Here we are extracting the images of the hand in Grayscale using absolute background subtraction in OpenCV. For that you have to select the histogram which suits the best. You might need to make some minute changes in the code for it to work on your machine.
 
-## Problem Statement:
-
-According to the National Association of the Deaf (NAD), 18 million people are estimated to be deaf in India. They can communicate among themselves using sign language  but having a conversation with others is a difficult task. 
-
-Extensive work has been done on the American Sign Language(ASL) and by working on this project we want to get involved in the development of our own indigenous platform to translate Indo-Pakistani Sign Language into text/sound and enable these people to have an improved conversational experience. 
 
 ## Dataset can be found on
 
