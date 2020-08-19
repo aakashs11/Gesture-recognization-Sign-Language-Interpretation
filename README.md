@@ -3,7 +3,15 @@
 
 
 # Part-1. Transfer learning to create models for geture detection
+## Dataset can be found on
+
+https://www.kaggle.com/grassknoted/asl-alphabet
+The data set is a collection of images of alphabets from the American Sign Language, separated in 29 folders which represent the various classes.
+
 ## VGG 19
+Used just as a good classification architecture for many other datasets and as the authors made the models available to the public they can be used as is or with modification for other similar tasks also.
+Transfer learning : can be used for facial recognition tasks also.
+
 
 
 
