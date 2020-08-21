@@ -78,8 +78,9 @@ Performance can be improved by increasing the size of the images, and training f
 Xception  by Google, stands for Extreme version of Inception. With a modified depthwise separable convolution, it is even better than Inception-v3.
 ### Trained on 30000 samples, validated on 17400 samples
 Model was trained fro 5 epochs using a degrading gradient and most of the layers were unfrozen, since the image size was only 32x32. The model was trained again for 5 epochs after changing the learning rate to 1/100th of the initial.
-
+<br />
 **Final accuracy score of 97.57%**
+<br />
 ![](https://github.com/aakashs11/SLI/blob/master/Images/Xception/loss%20and%20accuracy.png)
 
 |              | precision | recall | f1-score | support |
