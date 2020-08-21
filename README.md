@@ -32,7 +32,7 @@ As you are training a much larger model and want to readapt the pretrained weigh
 Otherwise, your model could overfit very quickly.\
 There was an increase of about 5% in validation accuracy. Some overfitting is observed since val loss is a bit higher than training loss.  
 <br />
-**Final accuracy of 93%**
+**Final accuracy score of 93%**
 
 |              | precision | recall | f1-score | support |
 |--------------|-----------|--------|----------|---------|
@@ -72,9 +72,54 @@ There was an increase of about 5% in validation accuracy. Some overfitting is ob
 
 ![](https://github.com/aakashs11/SLI/blob/master/Images/VGG19/cnf.png)
 
+Performance can be improved by increasing the size of the images, and training for more epochs.
 
+## Xception
+Xception  by Google, stands for Extreme version of Inception. With a modified depthwise separable convolution, it is even better than Inception-v3.
+### Trained on 30000 samples, validated on 17400 samples
+Model was trained fro 5 epochs using a degrading gradient and most of the layers were unfrozen, since the image size was only 32x32. The model was trained again for 5 epochs after changing the learning rate to 1/100th of the initial.
 
+**Final accuracy score of 97.57%**
+![](https://github.com/aakashs11/SLI/blob/master/Images/Xception/loss%20and%20accuracy.png)
 
+|              | precision | recall | f1-score | support |
+|--------------|-----------|--------|----------|---------|
+| A            | 0.99      | 0.95   | 0.97     | 608     |
+| B            | 0.97      | 0.96   | 0.97     | 632     |
+| C            | 1.00      | 0.98   | 0.99     | 628     |
+| D            | 0.98      | 1.00   | 0.99     | 619     |
+| E            | 0.97      | 0.96   | 0.96     | 563     |
+| F            | 0.98      | 1.00   | 0.99     | 586     |
+| G            | 1.00      | 0.99   | 0.99     | 580     |
+| H            | 0.98      | 0.96   | 0.97     | 599     |
+| I            | 0.98      | 0.99   | 0.99     | 606     |
+| J            | 0.99      | 1.00   | 0.99     | 615     |
+| K            | 0.97      | 0.97   | 0.97     | 595     |
+| L            | 0.99      | 1.00   | 0.99     | 607     |
+| M            | 0.98      | 0.99   | 0.98     | 599     |
+| N            | 1.00      | 0.99   | 1.00     | 620     |
+| O            | 0.99      | 0.99   | 0.99     | 578     |
+| P            | 1.00      | 0.97   | 0.98     | 604     |
+| Q            | 0.97      | 1.00   | 0.99     | 586     |
+| R            | 0.95      | 0.95   | 0.95     | 593     |
+| S            | 0.97      | 0.99   | 0.98     | 558     |
+| T            | 0.98      | 0.98   | 0.98     | 637     |
+| U            | 0.96      | 0.92   | 0.93     | 589     |
+| V            | 0.91      | 0.96   | 0.93     | 627     |
+| W            | 0.95      | 0.95   | 0.95     | 615     |
+| X            | 0.99      | 0.90   | 0.94     | 621     |
+| Y            | 0.91      | 0.99   | 0.95     | 536     |
+| Z            | 0.99      | 1.00   | 0.99     | 592     |
+| del          | 0.98      | 0.99   | 0.98     | 605     |
+| nothing      | 1.00      | 1.00   | 1.00     | 593     |
+| space        | 0.99      | 1.00   | 1.00     | 609     |
+| accuracy     |           |        | 0.98     | 17400   |
+| macro avg    | 0.98      | 0.98   | 0.98     | 17400   |
+| weighted avg | 0.98      | 0.98   | 0.98     | 17400   |
+|              |           |        |          |         |
+![](https://github.com/aakashs11/SLI/blob/master/Images/Xception/cnf.png)
+
+Performance can be greatly improved to about 99.95% by trainnig for 20 epochs.
 # 2. Gesture Recognition using OpenCV and Deep CNN
 
 ## About the Project
